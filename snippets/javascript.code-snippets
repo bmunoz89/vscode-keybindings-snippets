@@ -13,10 +13,5 @@
     "prefix": "cld",
     "body": ["console.dir($1, {depth: null, colors: true});"],
     "description": "Create a console.dir to pretty print an object"
-  },
-  "typescript debug": {
-    "prefix": "tsd",
-    "body": ["// $1^?", "$0"],
-    "description": "TS debug by the extension vscode-twoslash-queries"
   }
 }

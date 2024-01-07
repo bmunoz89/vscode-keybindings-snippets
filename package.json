@@ -22,19 +22,27 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./snippets/node.code-snippets"
+        "path": "./snippets/javascript.code-snippets"
       },
       {
         "language": "typescript",
-        "path": "./snippets/node.code-snippets"
+        "path": "./snippets/javascript.code-snippets"
       },
       {
         "language": "javascriptreact",
-        "path": "./snippets/node.code-snippets"
+        "path": "./snippets/javascript.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/node.code-snippets"
+        "path": "./snippets/javascript.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/typescript.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/typescript.code-snippets"
       },
       {
         "language": "javascript",
