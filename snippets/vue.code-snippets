@@ -1,0 +1,73 @@
+{
+  "vue3 ts": {
+    "prefix": "v3ts",
+    "body": [
+      "<template>",
+      "  $2",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "  name: '$1',",
+      "  components: {},",
+      "  setup() {",
+      "    return {}",
+      "  },",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "</style>",
+      ""
+    ],
+    "description": "Vue3 template with typescript"
+  },
+  "vue with composition api": {
+    "prefix": "vcapi",
+    "body": [
+      "<template>",
+      "  <div>$2</div>",
+      "</template>",
+      "",
+      "<script>",
+      "import { defineComponent } from '@nuxtjs/composition-api'",
+      "",
+      "export default defineComponent({",
+      "  name  : '$1',",
+      "  setup() {",
+      "    return {}",
+      "  },",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped></style>",
+      ""
+    ],
+    "description": "Vue template with composition api"
+  },
+  "vue ts with composition api": {
+    "prefix": "vcapits",
+    "body": [
+      "<template>",
+      "  <div>$2</div>",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { defineComponent } from '@nuxtjs/composition-api'",
+      "",
+      "export default defineComponent({",
+      "  name  : '$1',",
+      "  setup() {",
+      "    return {}",
+      "  },",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped></style>",
+      ""
+    ],
+    "description": "Vue template with composition api"
+  }
+}

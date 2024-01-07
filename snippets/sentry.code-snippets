@@ -1,0 +1,48 @@
+{
+  "Sentry breadcrumb": {
+    "scope": "javascript,typescript",
+    "prefix": "sb",
+    "body": [
+      "Sentry.addBreadcrumb({",
+      "    category: '$1',",
+      "    message: '$2',",
+      "    data: {",
+      "        $3: $4,",
+      "    },",
+      "});"
+    ]
+  },
+  "Sentry capture message": {
+    "scope": "javascript,typescript",
+    "prefix": "scm",
+    "body": [
+      "Sentry.captureMessage('$1', {",
+      "    extra: {",
+      "        $4: $5,",
+      "    },",
+      "    level: Sentry.Severity.${3|Critical,Debug,Error,Fatal,Info,Log,Warning|},",
+      "});"
+    ]
+  },
+  "Sentry capture exception": {
+    "scope": "javascript,typescript",
+    "prefix": "sce",
+    "body": [
+      "Sentry.captureException(${1|error,err,er,e|}, {",
+      "    extra: {",
+      "        $2: $3,",
+      "    },",
+      "});"
+    ]
+  },
+  "Sentry capture exception simple": {
+    "scope": "javascript,typescript",
+    "prefix": "sces",
+    "body": ["Sentry.captureException(${1|error,err,er,e|});"]
+  },
+  "ES6 import": {
+    "scope": "javascript,typescript",
+    "prefix": "si",
+    "body": ["import * as Sentry from '@sentry/node';"]
+  }
+}
