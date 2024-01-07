@@ -24,6 +24,31 @@
     ],
     "description": "Vue3 template with typescript"
   },
+  "vue ts": {
+    "prefix": "vts",
+    "body": [
+      "<template>",
+      "  $2",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "export default {",
+      "  name: '$1',",
+      "  components: {},",
+      "  props: {},",
+      "  data: () => ({}),",
+      "  computed: {},",
+      "  methods: {},",
+      "  watch: {},",
+      "};",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "</style>",
+      ""
+    ],
+    "description": "Vue template with typescript"
+  },
   "vue with composition api": {
     "prefix": "vcapi",
     "body": [

@@ -55,6 +55,14 @@
       {
         "language": "vue",
         "path": "./snippets/vue.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/vuex.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/vuex.code-snippets"
       }
     ],
     "keybindings": [

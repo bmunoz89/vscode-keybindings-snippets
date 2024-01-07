@@ -1,0 +1,22 @@
+{
+  "Vuex mapState": {
+    "prefix": "mapState",
+    "body": ["...mapState('$1', ['$2'])"],
+    "description": "Vuex mapState for vue computed"
+  },
+  "Vuex mapGetters": {
+    "prefix": "mapGetters",
+    "body": ["...mapGetters('$1', ['$2'])"],
+    "description": "Vuex mapGetters for vue methods"
+  },
+  "Vuex mapActions": {
+    "prefix": "mapActions",
+    "body": ["...mapActions('$1', ['$2'])"],
+    "description": "Vuex mapActions for vue methods"
+  },
+  "Vuex mapMutations": {
+    "prefix": "mapMutations",
+    "body": ["...mapMutations('$1', ['$2'])"],
+    "description": "Vuex mapMutations for vue methods"
+  }
+}
