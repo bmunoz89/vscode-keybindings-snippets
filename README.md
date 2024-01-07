@@ -1,1 +1,1 @@
-# personal-keybindings-snippets README
+# vscode-keybindings-snippets README

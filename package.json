@@ -1,6 +1,6 @@
 {
-  "name": "personal-keybindings-snippets",
-  "displayName": "Personal keybindings/snippets",
+  "name": "vscode-keybindings-snippets",
+  "displayName": "VSCode keybindings/snippets",
   "description": "Useful keybindings/snippets for multiple languages, packages, and frameworks.",
   "version": "0.0.1",
   "license": "MIT",
@@ -8,7 +8,7 @@
     "build": "vsce package"
   },
   "repository": {
-    "url": "https://github.com/bmunoz89/personal-keybindings-snippets"
+    "url": "https://github.com/bmunoz89/vscode-keybindings-snippets"
   },
   "publisher": "bmunoz89",
   "engines": {
