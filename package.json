@@ -25,11 +25,35 @@
         "path": "./snippets/node.code-snippets"
       },
       {
+        "language": "typescript",
+        "path": "./snippets/node.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/node.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/node.code-snippets"
+      },
+      {
         "language": "javascript",
         "path": "./snippets/sentry.code-snippets"
       },
       {
-        "language": "javascript",
+        "language": "typescript",
+        "path": "./snippets/sentry.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/sentry.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/sentry.code-snippets"
+      },
+      {
+        "language": "vue",
         "path": "./snippets/vue.code-snippets"
       }
     ],
