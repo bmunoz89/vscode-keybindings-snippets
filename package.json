@@ -8,8 +8,9 @@
     "build": "vsce package"
   },
   "repository": {
-    "url": ""
+    "url": "https://github.com/bmunoz89/personal-keybindings-snippets"
   },
+  "publisher": "bmunoz89",
   "engines": {
     "vscode": "^1.85.0"
   },
