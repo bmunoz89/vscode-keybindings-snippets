@@ -1,6 +1,5 @@
 {
   "Sentry breadcrumb": {
-    "scope": "javascript,typescript",
     "prefix": "sb",
     "body": [
       "Sentry.addBreadcrumb({",
@@ -13,7 +12,6 @@
     ]
   },
   "Sentry capture message": {
-    "scope": "javascript,typescript",
     "prefix": "scm",
     "body": [
       "Sentry.captureMessage('$1', {",
@@ -25,7 +23,6 @@
     ]
   },
   "Sentry capture exception": {
-    "scope": "javascript,typescript",
     "prefix": "sce",
     "body": [
       "Sentry.captureException(${1|error,err,er,e|}, {",
@@ -36,12 +33,10 @@
     ]
   },
   "Sentry capture exception simple": {
-    "scope": "javascript,typescript",
     "prefix": "sces",
     "body": ["Sentry.captureException(${1|error,err,er,e|});"]
   },
   "ES6 import": {
-    "scope": "javascript,typescript",
     "prefix": "si",
     "body": ["import * as Sentry from '@sentry/node';"]
   }

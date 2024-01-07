@@ -1,24 +1,20 @@
 {
   "console variable": {
-    "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "clv",
     "body": ["console.log(`$1 :>> '${$1}'`);$0"],
     "description": "Create a console.log to print the copied variable"
   },
   "console wrap": {
-    "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "cw",
     "body": ["console.log('$1', require('util').inspect($1, 0, 10, 1));$0"],
     "description": "Create a console.log to inspect the copied variable"
   },
   "console object": {
-    "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "cld",
     "body": ["console.dir($1, {depth: null, colors: true});"],
     "description": "Create a console.dir to pretty print an object"
   },
   "typescript debug": {
-    "scope": "typescript,typescriptreact",
     "prefix": "tsd",
     "body": ["// $1^?", "$0"],
     "description": "TS debug by the extension vscode-twoslash-queries"
