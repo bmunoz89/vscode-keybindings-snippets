@@ -13,5 +13,9 @@
     "prefix": "cld",
     "body": ["console.dir($1, {depth: null, colors: true});"],
     "description": "Create a console.dir to pretty print an object"
+  },
+  "array loop lenght": {
+    "prefix": "ArrayFrom",
+    "body": ["Array.from({ length: $1 }).map((_, i) => {$2});"]
   }
 }
