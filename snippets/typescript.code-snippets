@@ -3,5 +3,10 @@
     "prefix": "tsd",
     "body": ["// $1^?", "$0"],
     "description": "TS debug by the extension vscode-twoslash-queries"
+  },
+  "typescript debug line": {
+    "prefix": "tsdl",
+    "body": ["//=>"],
+    "description": "TS debug current line by the extension vscode-twoslash-queries"
   }
 }
