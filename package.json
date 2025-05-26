@@ -149,7 +149,7 @@
         }
       },
       {
-        "key": "cmd+k",
+        "key": "cmd+k cmd+c",
         "command": "workbench.action.terminal.clear",
         "when": "terminalFocus"
       },
