@@ -176,6 +176,16 @@
       {
         "key": "cmd+n",
         "command": "extension.advancedNewFile"
+      },
+      {
+        "key": "cmd+]",
+        "command": "workbench.action.nextEditor",
+        "when": "editorFocus"
+      },
+      {
+        "key": "cmd+[",
+        "command": "workbench.action.previousEditor",
+        "when": "editorFocus"
       }
     ]
   }
